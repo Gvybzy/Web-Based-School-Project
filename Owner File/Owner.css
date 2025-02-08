@@ -1,0 +1,54 @@
+.bottomaboutus {
+    background-color: #1f2937;
+    color: #ffffff; 
+    padding: 2rem 1rem;
+}
+
+.bottomaboutus h3 {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.bottomaboutus p,
+.bottomaboutus li {
+    color: #9ca3af;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+.bottomaboutus a {
+    color: #9ca3af;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.bottomaboutus a:hover {
+    color: #ffffff;
+}
+
+.bottomaboutus ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bottomaboutus .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .bottomaboutus .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.bottomaboutus .mt-8 {
+    margin-top: 2rem;
+    font-size: 0.875rem;
+    color: #6b7280;
+}

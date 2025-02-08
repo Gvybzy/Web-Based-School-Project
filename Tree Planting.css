@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+#frontpage {
+    background: linear-gradient(rgba(0,0,0,0.5), #2e6877),url(IMAGES/Auto.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+/* Navbar Styling */
+.frontpage-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.frontpage-navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: inherit;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.frontpage-navbar img {
+    vertical-align: middle;
+    transition: transform 0.3s ease-in-out;
+}
+
+.frontpage-navbar img:hover {
+    transform: scale(1.1);
+}
+
+.frontpage-navbar h4 {
+    margin: 0;
+    color: white;
+    font-size: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.frontpage-navbar h4:hover {
+    color: #0cffff;
+    transform: scale(1.1);
+}
+
+
+.navbar-menu {
+    display: flex;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-nav li {
+    position: relative;
+}
+
+.navbar-nav a {
+    color: white;
+    padding: 10px 15px;
+    display: block;
+    transition: 0.3s;
+    position: relative;
+}
+
+.navbar-nav a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease-in-out;
+}
+
+.navbar-nav a:hover::after {
+    width: 100%;
+}
+ropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #2e6877;
+    min-width: 150px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+    background-color: #028a5c;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    padding: 100px;
+}
+
+.text h4 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.text p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.navbar-nav a:hover {
+    color: #0cffff;
+}
+
+
+
+
+/*-------------------- INTRAMURALS ---------------------*/
+#EVENTS2 {
+    background-color: #2e6877;
+}
+.blog-container {
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    margin: auto;
+}
+.blog-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.blog-item {
+    width: 100%;
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+.post-content {
+    text-align: left;
+    padding: 20px;
+}
+.post-date {
+    background: #ff6600;
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+}
+.post-date .day {
+    font-size: 24px;
+    font-weight: bold;
+}
+.post-date .month {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.meta-info-blog {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+.meta-info-blog a {
+    color: #ff6600;
+    text-decoration: none;
+}
+.blog-image {
+    text-align: center;
+    margin: 15px 0;
+}
+.blog-image img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.blog-title h2 a {
+    color: #222;
+    text-decoration: none;
+    font-size: 22px;
+}
+.blog-desc p {
+    font-size: 16px;
+    color: #333;
+}
+blockquote.default {
+    background: #f9f9f9;
+    padding: 15px;
+    border-left: 5px solid #ff6600;
+    font-style: italic;
+    color: #555;
+}
