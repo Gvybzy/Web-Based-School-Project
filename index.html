@@ -1,53 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-
-        <!---------------------BASE INFO--------------------------->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-------------------- TITLE --------------->
-        <title>RNHS</title>
-        <!-------------------- Site Icon ---------------------->
-        <link rel="shortcut icon" href="IMAGES/Logo.png" type="image/x-icon"/>
-        <!-------------------------- LINKS ------------------------------------>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="Loader/loader.css">
-        <script src="Loader/loader.js"></script>
-    
-    
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rosales National High School | Home</title>
+<meta name="description" content="Official website of Rosales National High School (RNHS) in Rosales, Pangasinan — academics, admissions, facilities, and news.">
+<link rel="icon" href="assets/images/logo.png" type="image/png">
+<link rel="stylesheet" href="css/main.css">
 </head>
-<body>
+<body class="no-js ">
+<a class="skip-link" href="#main">Skip to main content</a>
+<div class="loader-screen" aria-hidden="true"><div class="loader-mark"></div></div>
+<header class="site-header">
+<nav class="navbar" aria-label="Main navigation">
+  <a class="brand" href="index.html">
+    <img src="assets/images/logo.png" alt="" width="46" height="46">
+    <span class="brand-text"><strong>RNHS</strong><span>Rosales National High School</span></span>
+  </a>
+  <ul class="nav-menu" id="navMenu">
+<li><a class="nav-link" href="index.html">Home</a></li>
+<li class="nav-item has-dropdown-wrap">
+<button class="nav-link has-dropdown" aria-haspopup="true" aria-expanded="false">About <svg class="chev" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<div class="dropdown-panel">
+<a href="pages/about.html">School Profile</a>
+<a href="pages/vision-mission.html">Vision &amp; Mission</a>
+<a href="pages/core-values.html">Core Values</a>
+<a href="pages/mandate.html">DepEd Mandate</a>
+</div></li>
+<li class="nav-item has-dropdown-wrap">
+<button class="nav-link has-dropdown" aria-haspopup="true" aria-expanded="false">Academics <svg class="chev" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<div class="dropdown-panel">
+<a href="pages/strands/abm.html">ABM</a>
+<a href="pages/strands/gas.html">GAS</a>
+<a href="pages/strands/humss.html">HUMSS</a>
+<a href="pages/strands/stem.html">STEM</a>
+<a href="pages/strands/tvl.html">TVL</a>
+</div></li>
+<li class="nav-item has-dropdown-wrap">
+<button class="nav-link has-dropdown" aria-haspopup="true" aria-expanded="false">Campus <svg class="chev" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<div class="dropdown-panel">
+<a href="pages/facilities.html">Facilities</a>
+<a href="pages/events.html">Events</a>
+</div></li>
+<li class="nav-item has-dropdown-wrap">
+<button class="nav-link has-dropdown" aria-haspopup="true" aria-expanded="false">Student Life <svg class="chev" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<div class="dropdown-panel">
+<a href="pages/events/intramurals.html">Intramurals</a>
+<a href="pages/events/tree-planting.html">Tree Planting</a>
+<a href="pages/rules.html">School Rules</a>
+</div></li>
+<li><a class="nav-link" href="pages/contact.html">Contact</a></li>
+<li class="nav-cta"><a class="btn btn-secondary" href="pages/sign-in.html">Student Portal</a></li>
+</ul>
+  <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu"><span></span></button>
+</nav>
+</header>
+<main id="main">
+<section class="hero">
+  <div class="hero-grid">
+    <div>
+      <span class="eyebrow">Rosales, Pangasinan &middot; DepEd Public School</span>
+      <h1>Rosales National High School</h1>
+      <p class="lede">Empowering learners through quality education, character formation, and meaningful opportunities for growth.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="pages/about.html">Explore RNHS</a>
+        <a class="btn btn-outline" href="pages/strands/abm.html">Academic Strands</a>
+        <a class="btn btn-outline" href="pages/contact.html">Contact Us</a>
+      </div>
+    </div>
+    <div class="seal-frame reveal">
+      <img src="assets/images/hero-front.jpg" alt="Rosales National High School campus grounds" width="900" height="675">
+    </div>
+  </div>
+</section>
 
+<div class="container quick-info">
+  <div class="grid grid-4">
+    <div class="quick-card reveal">
+      <h4>About RNHS</h4>
+      <p>Our history, leadership, and the programs we offer.</p>
+      <a href="pages/about.html">Learn more &rarr;</a>
+    </div>
+    <div class="quick-card reveal">
+      <h4>Academic Strands</h4>
+      <p>ABM, GAS, HUMSS, STEM, and TVL senior high pathways.</p>
+      <a href="pages/strands/abm.html">View strands &rarr;</a>
+    </div>
+    <div class="quick-card reveal">
+      <h4>Facilities</h4>
+      <p>Library, gymnasium, lounge, and learning spaces on campus.</p>
+      <a href="pages/facilities.html">See facilities &rarr;</a>
+    </div>
+    <div class="quick-card reveal">
+      <h4>School Events</h4>
+      <p>Intramurals, community activities, and school milestones.</p>
+      <a href="pages/events.html">View events &rarr;</a>
+    </div>
+  </div>
+</div>
 
-<!----------------------------------------------- START-LOADER -------------------------------------------------->
-<div class="loader"></div>
-<!----------------------------------------------- END-LOADER -------------------------------------------------->
+<section class="section">
+  <div class="container">
+    <div class="grid grid-2" style="align-items:center; gap:3rem;">
+      <div class="reveal">
+        <span class="eyebrow">Who we are</span>
+        <h2>Welcome to Rosales National High School</h2>
+        <p>RNHS is a public secondary educational institution located in Rosales, Pangasinan, established to provide quality and affordable education to its residents. We implement the K to 12 basic education program, offering both junior and senior high school in accordance with the Department of Education (DepEd).</p>
+        <p>Our dedicated faculty and staff work together to help students excel academically while developing strong values, leadership skills, and a sense of responsibility.</p>
+        <a class="btn btn-secondary" href="pages/about.html">Learn More</a>
+      </div>
+      <div class="seal-frame reveal">
+        <img src="assets/images/rnhs-campus-4.jpg" alt="Students at Rosales National High School" width="700" height="525" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
 
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Senior High School</span>
+      <h2>Academic Strands</h2>
+      <p>Five pathways to match every student's interests and goals for college and career.</p>
+    </div>
+    <div class="grid grid-3">
+      <article class="media-card reveal">
+        <div class="media"><img src="assets/images/strand-abm.jpg" alt="" loading="lazy" width="700" height="700"></div>
+        <div class="body"><h3>ABM</h3><p>Accountancy, Business, and Management — for future entrepreneurs, accountants, and business leaders.</p>
+        <a class="link" href="pages/strands/abm.html">Learn More <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+      </article>
+      <article class="media-card reveal">
+        <div class="media"><img src="assets/images/strand-gas.jpg" alt="" loading="lazy" width="700" height="700"></div>
+        <div class="body"><h3>GAS</h3><p>General Academic Strand — a flexible, well-rounded path for students still exploring their career direction.</p>
+        <a class="link" href="pages/strands/gas.html">Learn More <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+      </article>
+      <article class="media-card reveal">
+        <div class="media"><img src="assets/images/strand-humss.jpg" alt="" loading="lazy" width="700" height="700"></div>
+        <div class="body"><h3>HUMSS</h3><p>Humanities and Social Sciences — for students drawn to law, education, journalism, and public service.</p>
+        <a class="link" href="pages/strands/humss.html">Learn More <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+      </article>
+      <article class="media-card reveal">
+        <div class="media"><img src="assets/images/strand-stem.jpg" alt="" loading="lazy" width="700" height="700"></div>
+        <div class="body"><h3>STEM</h3><p>Science, Technology, Engineering, and Mathematics — for students pursuing engineering, medicine, and research.</p>
+        <a class="link" href="pages/strands/stem.html">Learn More <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+      </article>
+      <article class="media-card reveal">
+        <div class="media"><img src="assets/images/strand-tvl.jpg" alt="" loading="lazy" width="700" height="700"></div>
+        <div class="body"><h3>TVL</h3><p>Technical-Vocational-Livelihood — hands-on training in ICT, welding (SMAW), and other trade skills.</p>
+        <a class="link" href="pages/strands/tvl.html">Learn More <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+      </article>
+    </div>
+  </div>
+</section>
 
-<!----------------------------------------------- FRONT | MAIN -------------------------------------------------->
-        <section id="frontimg">
-                <div class="logo">
-                        <img src="IMAGES/Logo.png" width="150px" height="150px">
-                        <div class="logo-text">
-                                <h2>
-                                        WELCOME TO RNHS!
-                                </h2>
-                                <p>
-                                        Come & Join Us Now!
-                                </p>
-                                <div class="logo-btn">
-                                        <a href="About Us Start.html">About Us</a>
-                                        <a href="Sign Up & Sign In.html">Read More</a>
-                                </div>
-                        </div>
-                </div>
-        </section>
-        
-<!----------------------------------------------- END FRONT | MAIN ----------------------------------------------->
+<section class="section">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Campus</span>
+      <h2>Facilities</h2>
+      <p>Spaces built to support learning, wellness, and school life.</p>
+    </div>
+    <div class="grid grid-3">
+      <article class="media-card reveal">
+        <div class="media"><img src="assets/images/facility-library.jpg" alt="RNHS library" loading="lazy" width="474" height="355"></div>
+        <div class="body"><h3>Library</h3><p>A quiet space stocked with books and resources for research and independent study.</p></div>
+      </article>
+      <article class="media-card reveal">
+        <div class="media"><img src="assets/images/facility-gym.jpg" alt="RNHS gymnasium" loading="lazy" width="900" height="506"></div>
+        <div class="body"><h3>Gymnasium</h3><p>A venue for PE classes, sports training, and school-wide events like Intramurals.</p></div>
+      </article>
+      <article class="media-card reveal">
+        <div class="media"><img src="assets/images/facility-lounge.jpg" alt="RNHS lounge area" loading="lazy" width="900" height="506"></div>
+        <div class="body"><h3>Lounge Area</h3><p>A shaded outdoor space where students can relax and unwind between classes.</p></div>
+      </article>
+    </div>
+    <p class="text-center mt-2"><a class="btn btn-ghost" href="pages/facilities.html">View All Facilities</a></p>
+  </div>
+</section>
 
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">What's happening</span>
+      <h2>Latest Events</h2>
+      <p>Recent activities from the RNHS community.</p>
+    </div>
+    <div class="grid grid-2">
+      <article class="media-card reveal">
+        <div class="media"><img src="assets/images/event-intramurals-2.jpg" alt="RNHS Intramurals" loading="lazy" width="495" height="377"></div>
+        <div class="body">
+          <span class="tag-date">August 1, 2019</span>
+          <h3>Intramurals</h3>
+          <p>Sports competitions and the search for Mr. and Ms. Intramurals, joined by students from grades 7 to 12.</p>
+          <a class="link" href="pages/events/intramurals.html">Read More <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+      </article>
+      <article class="media-card reveal">
+        <div class="media"><img src="assets/images/event-tree-planting-1.jpg" alt="RNHS tree planting activity" loading="lazy" width="900" height="674"></div>
+        <div class="body">
+          <span class="tag-date">December 6, 2023</span>
+          <h3>Tree Planting Activity</h3>
+          <p>A simultaneous tree-planting activity in support of DepEd's nationwide Christmas tree-planting drive.</p>
+          <a class="link" href="pages/events/tree-planting.html">Read More <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
 
-    
+<section class="section section-navy">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">What we stand for</span>
+      <h2>Core Values</h2>
+      <p>The four values that guide every learner at RNHS, rooted in the DepEd core values framework.</p>
+    </div>
+    <div class="value-list">
+      <div class="value-item reveal"><div class="glyph">01</div><h4>Maka-Diyos</h4></div>
+      <div class="value-item reveal"><div class="glyph">02</div><h4>Maka-tao</h4></div>
+      <div class="value-item reveal"><div class="glyph">03</div><h4>Makakalikasan</h4></div>
+      <div class="value-item reveal"><div class="glyph">04</div><h4>Makabansa</h4></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="grid grid-2" style="align-items:center;">
+      <div class="reveal">
+        <span class="eyebrow">Get in touch</span>
+        <h2>Visit or Contact RNHS</h2>
+        <p>VJRG+HVW, Rosales, Pangasinan<br>(075) 582 3376<br>example@rnhs.school</p>
+        <a class="btn btn-secondary" href="pages/contact.html">Contact Us</a>
+      </div>
+      <div class="map-frame reveal">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.328945914407!2d120.62698599224831!3d15.891828568554661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33913bddb873a57f%3A0x66fa1018e72b51d9!2sRosales%20National%20High%20School!5e0!3m2!1sen!2sph!4v1674371201016!5m2!1sen!2sph" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map to Rosales National High School"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand"><img src="assets/images/logo.png" alt=""><strong>RNHS</strong></div>
+      <p>Rosales National High School (RNHS) is a public secondary institution in Rosales, Pangasinan, offering junior high school and the K to 12 Senior High School program under the Department of Education.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pages/about.html">About RNHS</a></li>
+        <li><a href="pages/strands/abm.html">Academic Strands</a></li>
+        <li><a href="pages/facilities.html">Facilities</a></li>
+        <li><a href="pages/events.html">Events</a></li>
+        <li><a href="pages/rules.html">School Rules</a></li>
+        <li><a href="pages/sign-in.html">Student Portal</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul>
+        <li>VJRG+HVW, Rosales, Pangasinan</li>
+        <li>(075) 582 3376</li>
+        <li>example@rnhs.school</li>
+      </ul>
+      <ul>
+        <li><a href="pages/contact.html">Get in touch &rarr;</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2026 Rosales National High School. All rights reserved. &middot; Site design and development by Sev Florenz D. Doctor.
+  </div>
+</footer>
+<script src="js/main.js"></script>
 </body>
 </html>
